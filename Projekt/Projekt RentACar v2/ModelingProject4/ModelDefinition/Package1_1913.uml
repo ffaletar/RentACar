@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9c6c3462-8a38-4fae-b800-e111c3e88e01"
+  name="EventArguments"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="008728f1-2968-4086-8126-250a9690bad1"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DRentACar.BL.EventArguments"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="bc1363d2-eca8-4f00-99f8-b10403d64b23"
+        name="AutomobilEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4e19e875-fb2e-4555-9a83-5c9f1ff85f44"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FRentACar.BL%2Fbin%2FDebug%2FRentACar.BL.dll&quot; Namespace%3DRentACar.BL.EventArguments Type%3DAutomobilEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cf771e67-a681-4f3b-9e32-ea04da3490a1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4648393-cfca-477f-9362-640d2eb1d7bb">
+                <propertyInstance
+                  Id="7ad35721-16cc-4daf-898e-2934be02c480"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aaa8339b-c19e-44c7-ba58-ae88aaad6e0e">
+                <propertyInstance
+                  Id="d776e9a1-0fde-4b0d-93d1-e5ae50066173"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4ce369e-5105-48ce-843c-272414507aa3">
+                <propertyInstance
+                  Id="62f6ab18-960a-4a0b-9214-64afe0c68e8b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="34c52a40-da09-47ff-9711-53c613242062">
+                <propertyInstance
+                  Id="d3b1d311-50fe-4de6-ab90-17d2d7bb5cc2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba06fcbe-9fbf-411c-acb4-f08a7fc4931d">
+                <propertyInstance
+                  Id="17cb3ed3-b77b-475c-ab90-87c95b6a0bca"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="45bf0fc7-74ba-423f-ade3-1c0db2058c43"
+            isSubstitutable="false">
+            <classMoniker
+              Id="27981c30-5de6-4d02-9548-35fe50a43373"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package2_1912.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eff85a58-e02e-48a8-8399-1451a0e81877"
+        name="DodajAutomobilEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b9df2c82-14aa-4194-b805-74db4402f31b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FRentACar.BL%2Fbin%2FDebug%2FRentACar.BL.dll&quot; Namespace%3DRentACar.BL.EventArguments Type%3DDodajAutomobilEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a562a020-80e7-4a44-8f21-2ef6e337ee13"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="59d95754-f124-4ed7-8642-a3f04ec473ee">
+                <propertyInstance
+                  Id="50a25602-1fb1-40da-9f29-739a3af48b17"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28c81168-1729-4647-a033-c2880c75cc31">
+                <propertyInstance
+                  Id="7abc0679-208c-49f6-a72b-b82084c88bc0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c358fda4-986e-40e6-9fac-757c38d2bcb8">
+                <propertyInstance
+                  Id="c3d9ef28-6d8e-41a8-b263-f3c1892aa8c7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4ffc8b4-4122-4b24-9ed1-3dd1894f39e6">
+                <propertyInstance
+                  Id="25b11bc4-164f-47ec-8c36-1419f1bab0ed"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d2dde52c-c212-41cf-b439-964d59e57bd3">
+                <propertyInstance
+                  Id="b64d5c0a-babf-4b02-9a7b-5736501edd1d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="c80fa044-3e00-4eaa-b557-aedfb5a847bb"
+            isSubstitutable="false">
+            <classMoniker
+              Id="27981c30-5de6-4d02-9548-35fe50a43373"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package2_1912.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="05532911-5d1a-4eaa-a91c-a00dc442b579"
+        name="PotvrdaRezervacijeEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a9a1d17f-c5a7-4ed1-9b68-c5539423d9fa"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FRentACar.BL%2Fbin%2FDebug%2FRentACar.BL.dll&quot; Namespace%3DRentACar.BL.EventArguments Type%3DPotvrdaRezervacijeEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2ccf9128-2ffc-476b-a202-7d6293327d45"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2a6b8d25-a820-4bd3-9f52-11770762f0a8">
+                <propertyInstance
+                  Id="0e2f66ed-c56d-4d6e-80ea-992a9a702477"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="75a4ccd2-42ee-4cea-9056-75fbb5077220">
+                <propertyInstance
+                  Id="62ba0765-4f37-4292-abcd-25ea65ccd2ee"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4313ec93-3913-4d10-97ef-55e1aa68c0a3">
+                <propertyInstance
+                  Id="a78bcbcf-4bdd-408b-bc76-dd7556fd9383"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17076068-1353-47b3-b640-571eacd143be">
+                <propertyInstance
+                  Id="53f53e59-bde7-4af3-bb97-dcedd7acaca7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8b3a2ff-2ab0-4c76-9966-99c5b082dc84">
+                <propertyInstance
+                  Id="2341985a-8bd0-4f66-b3d1-85a778f1c620"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="09425a03-888e-4c7f-95a0-a67b197e62e0"
+            isSubstitutable="false">
+            <classMoniker
+              Id="27981c30-5de6-4d02-9548-35fe50a43373"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package2_1912.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="14785779-b642-4ff5-9fd1-aa54de8f6856"
+        name="RacunEventArguments"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f7291ebe-c4f0-40fd-8715-80ed687ed197"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FRentACar.BL%2Fbin%2FDebug%2FRentACar.BL.dll&quot; Namespace%3DRentACar.BL.EventArguments Type%3DRacunEventArguments"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b9a22650-0548-47d3-b1a0-b7a57f9f9251"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e0e27e0-6f76-4f16-8a62-99b6488788ef">
+                <propertyInstance
+                  Id="d4b9be09-30e2-405c-9333-8618f315d6dc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a1253bb2-3422-4f9e-8183-2b707e760fd0">
+                <propertyInstance
+                  Id="3d3fb871-b458-4f93-a4e2-48fba50e958a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="200c3538-54b5-4d12-926c-34b600feb5a8">
+                <propertyInstance
+                  Id="035f297e-fe5d-4db6-a633-1ca63b3078b9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9da89ff0-ddda-4237-b54b-d7a2d29b754c">
+                <propertyInstance
+                  Id="7f3f97e3-8203-42fc-ab54-732b4a390634"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a018d6c4-301b-4605-84ba-e825cfc983d3">
+                <propertyInstance
+                  Id="46f6c4d4-3a30-4ec5-9bd8-650152244528"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

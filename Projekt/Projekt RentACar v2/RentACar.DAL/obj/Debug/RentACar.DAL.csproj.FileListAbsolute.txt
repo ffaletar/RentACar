@@ -1,0 +1,17 @@
+C:\Users\faletar\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\bin\Debug\RentACar.DAL.dll
+C:\Users\faletar\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\bin\Debug\RentACar.DAL.pdb
+C:\Users\faletar\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.dll
+C:\Users\faletar\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.pdb
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\bin\Debug\RentACar.DAL.dll
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\bin\Debug\RentACar.DAL.pdb
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.dll
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.pdb
+C:\Users\KEJTO\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\bin\Debug\RentACar.DAL.dll
+C:\Users\KEJTO\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\bin\Debug\RentACar.DAL.pdb
+C:\Users\KEJTO\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.csprojResolveAssemblyReference.cache
+C:\Users\KEJTO\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.dll
+C:\Users\KEJTO\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.pdb
+H:\Users\Filip\Downloads\r1537-master\r1537-master\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.csprojResolveAssemblyReference.cache
+H:\Users\Filip\Downloads\r1537-master\r1537-master\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.dll
+H:\Users\Filip\Downloads\r1537-master\r1537-master\Projekt\Projekt RentACar v2\RentACar.DAL\obj\Debug\RentACar.DAL.pdb

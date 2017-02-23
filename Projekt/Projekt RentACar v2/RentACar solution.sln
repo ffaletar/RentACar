@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar", "WindowsFormsApplication4\RentACar.csproj", "{A8411846-7E86-434C-919E-454B6E826DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.DAL", "RentACar.DAL\RentACar.DAL.csproj", "{53FB3EA8-E577-490D-81A7-1B3874392C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.BL", "RentACar.BL\RentACar.BL.csproj", "{C8122719-D1ED-4919-AB6D-E517D7BE966F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8411846-7E86-434C-919E-454B6E826DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8411846-7E86-434C-919E-454B6E826DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8411846-7E86-434C-919E-454B6E826DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8411846-7E86-434C-919E-454B6E826DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FB3EA8-E577-490D-81A7-1B3874392C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FB3EA8-E577-490D-81A7-1B3874392C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FB3EA8-E577-490D-81A7-1B3874392C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FB3EA8-E577-490D-81A7-1B3874392C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8122719-D1ED-4919-AB6D-E517D7BE966F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8122719-D1ED-4919-AB6D-E517D7BE966F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8122719-D1ED-4919-AB6D-E517D7BE966F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8122719-D1ED-4919-AB6D-E517D7BE966F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

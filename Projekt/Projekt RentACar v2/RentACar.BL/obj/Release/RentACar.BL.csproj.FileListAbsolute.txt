@@ -1,0 +1,7 @@
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.BL\bin\Release\RentACar.BL.dll
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.BL\bin\Release\RentACar.BL.pdb
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.BL\bin\Release\RentACar.DAL.dll
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.BL\bin\Release\RentACar.DAL.pdb
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.BL\obj\Release\RentACar.BL.csprojResolveAssemblyReference.cache
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.BL\obj\Release\RentACar.BL.dll
+C:\Users\Diana\Documents\GitHub\r1537\Projekt\Projekt RentACar v2\RentACar.BL\obj\Release\RentACar.BL.pdb

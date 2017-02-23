@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.Automobil' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Automobil">
+          <Key>
+            <PropertyRef Name="automobilID" />
+            <PropertyRef Name="markaID" />
+            <PropertyRef Name="modelID" />
+            <PropertyRef Name="tipID" />
+          </Key>
+          <Property Name="automobilID" Type="int" Nullable="false" />
+          <Property Name="markaID" Type="int" Nullable="false" />
+          <Property Name="modelID" Type="int" Nullable="false" />
+          <Property Name="tipID" Type="int" Nullable="false" />
+          <Property Name="pogon" Type="nvarchar" MaxLength="20" />
+          <Property Name="motor" Type="nvarchar" MaxLength="30" />
+          <Property Name="snaga" Type="int" />
+          <Property Name="opis" Type="nvarchar" MaxLength="200" />
+          <Property Name="cijena" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.Korisnik' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Korisnik">
+          <Key>
+            <PropertyRef Name="korisnikID" />
+            <PropertyRef Name="nadimak" />
+            <PropertyRef Name="lozinka" />
+            <PropertyRef Name="mail" />
+            <PropertyRef Name="tipID" />
+          </Key>
+          <Property Name="korisnikID" Type="int" Nullable="false" />
+          <Property Name="ime" Type="nvarchar" MaxLength="50" />
+          <Property Name="prezime" Type="nvarchar" MaxLength="50" />
+          <Property Name="nadimak" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="lozinka" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="telefon" Type="nvarchar" MaxLength="50" />
+          <Property Name="adresa" Type="nvarchar" MaxLength="50" />
+          <Property Name="tipID" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.MarkaAutomobila' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="MarkaAutomobila">
+          <Key>
+            <PropertyRef Name="markaID" />
+          </Key>
+          <Property Name="markaID" Type="int" Nullable="false" />
+          <Property Name="naziv" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.ModelAutomobila' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="ModelAutomobila">
+          <Key>
+            <PropertyRef Name="modelID" />
+          </Key>
+          <Property Name="modelID" Type="int" Nullable="false" />
+          <Property Name="markaID" Type="int" />
+          <Property Name="naziv" Type="nvarchar" MaxLength="300" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.ModelTip' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="ModelTip">
+          <Key>
+            <PropertyRef Name="modelID" />
+            <PropertyRef Name="tipID" />
+          </Key>
+          <Property Name="modelID" Type="int" Nullable="false" />
+          <Property Name="tipID" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.Rezervacija' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Rezervacija">
+          <Key>
+            <PropertyRef Name="rezervacijaID" />
+            <PropertyRef Name="datumRezervacije" />
+            <PropertyRef Name="pocetakPosudbe" />
+            <PropertyRef Name="krajPosudbe" />
+            <PropertyRef Name="automobilID" />
+            <PropertyRef Name="korisnikID" />
+            <PropertyRef Name="statusID" />
+          </Key>
+          <Property Name="rezervacijaID" Type="int" Nullable="false" />
+          <Property Name="datumRezervacije" Type="smalldatetime" Nullable="false" />
+          <Property Name="pocetakPosudbe" Type="smalldatetime" Nullable="false" />
+          <Property Name="krajPosudbe" Type="smalldatetime" Nullable="false" />
+          <Property Name="automobilID" Type="int" Nullable="false" />
+          <Property Name="korisnikID" Type="int" Nullable="false" />
+          <Property Name="statusID" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.Slika' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Slika">
+          <Key>
+            <PropertyRef Name="slikaID" />
+            <PropertyRef Name="automobilID" />
+          </Key>
+          <Property Name="slikaID" Type="int" Nullable="false" />
+          <Property Name="automobilID" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.Status' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Status">
+          <Key>
+            <PropertyRef Name="statusID" />
+            <PropertyRef Name="naziv" />
+          </Key>
+          <Property Name="statusID" Type="int" Nullable="false" />
+          <Property Name="naziv" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.sysdiagrams' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="name" />
+            <PropertyRef Name="principal_id" />
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.TipAutomobila' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="TipAutomobila">
+          <Key>
+            <PropertyRef Name="tipID" />
+            <PropertyRef Name="tip" />
+          </Key>
+          <Property Name="tipID" Type="int" Nullable="false" />
+          <Property Name="tip" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view '1537_DB.dbo.TipKorisnika' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="TipKorisnika">
+          <Key>
+            <PropertyRef Name="tipID" />
+            <PropertyRef Name="naziv" />
+          </Key>
+          <Property Name="tipID" Type="int" Nullable="false" />
+          <Property Name="naziv" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="DBModelStoreContainer">
+          <EntitySet Name="Automobil" EntityType="Self.Automobil" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[Automobil].[automobilID] AS [automobilID], 
+[Automobil].[markaID] AS [markaID], 
+[Automobil].[modelID] AS [modelID], 
+[Automobil].[tipID] AS [tipID], 
+[Automobil].[pogon] AS [pogon], 
+[Automobil].[motor] AS [motor], 
+[Automobil].[snaga] AS [snaga], 
+[Automobil].[opis] AS [opis], 
+[Automobil].[cijena] AS [cijena]
+FROM [dbo].[Automobil] AS [Automobil]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Korisnik" EntityType="Self.Korisnik" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[Korisnik].[korisnikID] AS [korisnikID], 
+[Korisnik].[ime] AS [ime], 
+[Korisnik].[prezime] AS [prezime], 
+[Korisnik].[nadimak] AS [nadimak], 
+[Korisnik].[lozinka] AS [lozinka], 
+[Korisnik].[mail] AS [mail], 
+[Korisnik].[telefon] AS [telefon], 
+[Korisnik].[adresa] AS [adresa], 
+[Korisnik].[tipID] AS [tipID]
+FROM [dbo].[Korisnik] AS [Korisnik]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="MarkaAutomobila" EntityType="Self.MarkaAutomobila" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[MarkaAutomobila].[markaID] AS [markaID], 
+[MarkaAutomobila].[naziv] AS [naziv]
+FROM [dbo].[MarkaAutomobila] AS [MarkaAutomobila]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="ModelAutomobila" EntityType="Self.ModelAutomobila" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[ModelAutomobila].[modelID] AS [modelID], 
+[ModelAutomobila].[markaID] AS [markaID], 
+[ModelAutomobila].[naziv] AS [naziv]
+FROM [dbo].[ModelAutomobila] AS [ModelAutomobila]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="ModelTip" EntityType="Self.ModelTip" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[ModelTip].[modelID] AS [modelID], 
+[ModelTip].[tipID] AS [tipID]
+FROM [dbo].[ModelTip] AS [ModelTip]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Rezervacija" EntityType="Self.Rezervacija" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[Rezervacija].[rezervacijaID] AS [rezervacijaID], 
+[Rezervacija].[datumRezervacije] AS [datumRezervacije], 
+[Rezervacija].[pocetakPosudbe] AS [pocetakPosudbe], 
+[Rezervacija].[krajPosudbe] AS [krajPosudbe], 
+[Rezervacija].[automobilID] AS [automobilID], 
+[Rezervacija].[korisnikID] AS [korisnikID], 
+[Rezervacija].[statusID] AS [statusID]
+FROM [dbo].[Rezervacija] AS [Rezervacija]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Slika" EntityType="Self.Slika" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[Slika].[slikaID] AS [slikaID], 
+[Slika].[automobilID] AS [automobilID]
+FROM [dbo].[Slika] AS [Slika]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Status" EntityType="Self.Status" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[Status].[statusID] AS [statusID], 
+[Status].[naziv] AS [naziv]
+FROM [dbo].[Status] AS [Status]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[sysdiagrams].[name] AS [name], 
+[sysdiagrams].[principal_id] AS [principal_id], 
+[sysdiagrams].[diagram_id] AS [diagram_id], 
+[sysdiagrams].[version] AS [version], 
+[sysdiagrams].[definition] AS [definition]
+FROM [dbo].[sysdiagrams] AS [sysdiagrams]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="TipAutomobila" EntityType="Self.TipAutomobila" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[TipAutomobila].[tipID] AS [tipID], 
+[TipAutomobila].[tip] AS [tip]
+FROM [dbo].[TipAutomobila] AS [TipAutomobila]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="TipKorisnika" EntityType="Self.TipKorisnika" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[TipKorisnika].[tipID] AS [tipID], 
+[TipKorisnika].[naziv] AS [naziv]
+FROM [dbo].[TipKorisnika] AS [TipKorisnika]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Automobil">
+          <Key>
+            <PropertyRef Name="automobilID" />
+            <PropertyRef Name="markaID" />
+            <PropertyRef Name="modelID" />
+            <PropertyRef Name="tipID" />
+          </Key>
+          <Property Name="automobilID" Type="Int32" Nullable="false" />
+          <Property Name="markaID" Type="Int32" Nullable="false" />
+          <Property Name="modelID" Type="Int32" Nullable="false" />
+          <Property Name="tipID" Type="Int32" Nullable="false" />
+          <Property Name="pogon" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="motor" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="snaga" Type="Int32" />
+          <Property Name="opis" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="cijena" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Korisnik">
+          <Key>
+            <PropertyRef Name="korisnikID" />
+            <PropertyRef Name="nadimak" />
+            <PropertyRef Name="lozinka" />
+            <PropertyRef Name="mail" />
+            <PropertyRef Name="tipID" />
+          </Key>
+          <Property Name="korisnikID" Type="Int32" Nullable="false" />
+          <Property Name="ime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="prezime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nadimak" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="lozinka" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="adresa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="tipID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MarkaAutomobila">
+          <Key>
+            <PropertyRef Name="markaID" />
+          </Key>
+          <Property Name="markaID" Type="Int32" Nullable="false" />
+          <Property Name="naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ModelAutomobila">
+          <Key>
+            <PropertyRef Name="modelID" />
+          </Key>
+          <Property Name="modelID" Type="Int32" Nullable="false" />
+          <Property Name="markaID" Type="Int32" />
+          <Property Name="naziv" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ModelTip">
+          <Key>
+            <PropertyRef Name="modelID" />
+            <PropertyRef Name="tipID" />
+          </Key>
+          <Property Name="modelID" Type="Int32" Nullable="false" />
+          <Property Name="tipID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Rezervacija">
+          <Key>
+            <PropertyRef Name="rezervacijaID" />
+            <PropertyRef Name="datumRezervacije" />
+            <PropertyRef Name="pocetakPosudbe" />
+            <PropertyRef Name="krajPosudbe" />
+            <PropertyRef Name="automobilID" />
+            <PropertyRef Name="korisnikID" />
+            <PropertyRef Name="statusID" />
+          </Key>
+          <Property Name="rezervacijaID" Type="Int32" Nullable="false" />
+          <Property Name="datumRezervacije" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="pocetakPosudbe" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="krajPosudbe" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="automobilID" Type="Int32" Nullable="false" />
+          <Property Name="korisnikID" Type="Int32" Nullable="false" />
+          <Property Name="statusID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Slika">
+          <Key>
+            <PropertyRef Name="slikaID" />
+            <PropertyRef Name="automobilID" />
+          </Key>
+          <Property Name="slikaID" Type="Int32" Nullable="false" />
+          <Property Name="automobilID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Status">
+          <Key>
+            <PropertyRef Name="statusID" />
+            <PropertyRef Name="naziv" />
+          </Key>
+          <Property Name="statusID" Type="Int32" Nullable="false" />
+          <Property Name="naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="name" />
+            <PropertyRef Name="principal_id" />
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TipAutomobila">
+          <Key>
+            <PropertyRef Name="tipID" />
+            <PropertyRef Name="tip" />
+          </Key>
+          <Property Name="tipID" Type="Int32" Nullable="false" />
+          <Property Name="tip" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TipKorisnika">
+          <Key>
+            <PropertyRef Name="tipID" />
+            <PropertyRef Name="naziv" />
+          </Key>
+          <Property Name="tipID" Type="Int32" Nullable="false" />
+          <Property Name="naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Automobil" EntityType="Self.Automobil" />
+          <EntitySet Name="Korisnik" EntityType="Self.Korisnik" />
+          <EntitySet Name="MarkaAutomobila" EntityType="Self.MarkaAutomobila" />
+          <EntitySet Name="ModelAutomobila" EntityType="Self.ModelAutomobila" />
+          <EntitySet Name="ModelTip" EntityType="Self.ModelTip" />
+          <EntitySet Name="Rezervacija" EntityType="Self.Rezervacija" />
+          <EntitySet Name="Slika" EntityType="Self.Slika" />
+          <EntitySet Name="Status" EntityType="Self.Status" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="TipAutomobila" EntityType="Self.TipAutomobila" />
+          <EntitySet Name="TipKorisnika" EntityType="Self.TipKorisnika" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBModelStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="Automobil">
+            <EntityTypeMapping TypeName="DBModel.Automobil">
+              <MappingFragment StoreEntitySet="Automobil">
+                <ScalarProperty Name="automobilID" ColumnName="automobilID" />
+                <ScalarProperty Name="markaID" ColumnName="markaID" />
+                <ScalarProperty Name="modelID" ColumnName="modelID" />
+                <ScalarProperty Name="tipID" ColumnName="tipID" />
+                <ScalarProperty Name="pogon" ColumnName="pogon" />
+                <ScalarProperty Name="motor" ColumnName="motor" />
+                <ScalarProperty Name="snaga" ColumnName="snaga" />
+                <ScalarProperty Name="opis" ColumnName="opis" />
+                <ScalarProperty Name="cijena" ColumnName="cijena" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Korisnik">
+            <EntityTypeMapping TypeName="DBModel.Korisnik">
+              <MappingFragment StoreEntitySet="Korisnik">
+                <ScalarProperty Name="korisnikID" ColumnName="korisnikID" />
+                <ScalarProperty Name="ime" ColumnName="ime" />
+                <ScalarProperty Name="prezime" ColumnName="prezime" />
+                <ScalarProperty Name="nadimak" ColumnName="nadimak" />
+                <ScalarProperty Name="lozinka" ColumnName="lozinka" />
+                <ScalarProperty Name="mail" ColumnName="mail" />
+                <ScalarProperty Name="telefon" ColumnName="telefon" />
+                <ScalarProperty Name="adresa" ColumnName="adresa" />
+                <ScalarProperty Name="tipID" ColumnName="tipID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MarkaAutomobila">
+            <EntityTypeMapping TypeName="DBModel.MarkaAutomobila">
+              <MappingFragment StoreEntitySet="MarkaAutomobila">
+                <ScalarProperty Name="markaID" ColumnName="markaID" />
+                <ScalarProperty Name="naziv" ColumnName="naziv" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ModelAutomobila">
+            <EntityTypeMapping TypeName="DBModel.ModelAutomobila">
+              <MappingFragment StoreEntitySet="ModelAutomobila">
+                <ScalarProperty Name="modelID" ColumnName="modelID" />
+                <ScalarProperty Name="markaID" ColumnName="markaID" />
+                <ScalarProperty Name="naziv" ColumnName="naziv" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ModelTip">
+            <EntityTypeMapping TypeName="DBModel.ModelTip">
+              <MappingFragment StoreEntitySet="ModelTip">
+                <ScalarProperty Name="modelID" ColumnName="modelID" />
+                <ScalarProperty Name="tipID" ColumnName="tipID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Rezervacija">
+            <EntityTypeMapping TypeName="DBModel.Rezervacija">
+              <MappingFragment StoreEntitySet="Rezervacija">
+                <ScalarProperty Name="rezervacijaID" ColumnName="rezervacijaID" />
+                <ScalarProperty Name="datumRezervacije" ColumnName="datumRezervacije" />
+                <ScalarProperty Name="pocetakPosudbe" ColumnName="pocetakPosudbe" />
+                <ScalarProperty Name="krajPosudbe" ColumnName="krajPosudbe" />
+                <ScalarProperty Name="automobilID" ColumnName="automobilID" />
+                <ScalarProperty Name="korisnikID" ColumnName="korisnikID" />
+                <ScalarProperty Name="statusID" ColumnName="statusID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Slika">
+            <EntityTypeMapping TypeName="DBModel.Slika">
+              <MappingFragment StoreEntitySet="Slika">
+                <ScalarProperty Name="slikaID" ColumnName="slikaID" />
+                <ScalarProperty Name="automobilID" ColumnName="automobilID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Status">
+            <EntityTypeMapping TypeName="DBModel.Status">
+              <MappingFragment StoreEntitySet="Status">
+                <ScalarProperty Name="statusID" ColumnName="statusID" />
+                <ScalarProperty Name="naziv" ColumnName="naziv" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="DBModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TipAutomobila">
+            <EntityTypeMapping TypeName="DBModel.TipAutomobila">
+              <MappingFragment StoreEntitySet="TipAutomobila">
+                <ScalarProperty Name="tipID" ColumnName="tipID" />
+                <ScalarProperty Name="tip" ColumnName="tip" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TipKorisnika">
+            <EntityTypeMapping TypeName="DBModel.TipKorisnika">
+              <MappingFragment StoreEntitySet="TipKorisnika">
+                <ScalarProperty Name="tipID" ColumnName="tipID" />
+                <ScalarProperty Name="naziv" ColumnName="naziv" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

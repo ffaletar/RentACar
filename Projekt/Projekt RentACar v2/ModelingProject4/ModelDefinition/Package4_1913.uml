@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4f5f06ae-c7be-47c3-bf2a-214ae105fb2d"
+  name="Controls"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="60714afb-8297-4707-8b1d-9f25db6b14f2"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWindowsFormsApplication4.Controls"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="06e56acf-37c2-4a17-bc00-b07f50f64b09"
+        name="AutomobiliControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="15808c51-47c3-427c-9406-ac1f9dbd2bae"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DAutomobiliControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1272ba96-dc0a-4722-bb23-73be140c496b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9bcd6f5-51cf-4ea0-b921-459012f4c91c">
+                <propertyInstance
+                  Id="191216a8-b44e-442e-a693-5d76f974a77a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="309679bb-ed02-49b5-af39-2ad580d907bc">
+                <propertyInstance
+                  Id="e403773c-c038-4a14-99f7-941443b4f9c9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="900f1602-cb42-417e-a083-9bbc868e2b1d">
+                <propertyInstance
+                  Id="c77bbb3e-3131-43c7-9ccb-fddfa67572fb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dfd6095f-1044-4898-983c-0cc72af38f36">
+                <propertyInstance
+                  Id="2c7bed84-0d94-489a-9ff7-0ad5bf476221"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d81a66ff-3faa-4043-a21e-98180e03bff6">
+                <propertyInstance
+                  Id="3195b3b3-2d55-4cd7-9b0a-dc2d6a5959cd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c7b511a6-d44e-49b7-9637-cca0a65ef47a"
+        name="DodajAutomobilControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f60f7ff0-11cf-4b65-b666-208e17c20f7f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DDodajAutomobilControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="edbfb458-a68d-4057-b1b5-49a90b993a17"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0bebef2-497a-448a-88f5-bd66ce1ce652">
+                <propertyInstance
+                  Id="cf0b33bf-a851-4e21-87e0-ea71bf87f8a9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e2299d0-2386-4d9a-a903-951011a9ddbe">
+                <propertyInstance
+                  Id="92edeaa1-26e4-4ea6-a0b1-d89081ad8a26"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c7995e77-b45b-474b-8dcb-a1b90ed7b8f4">
+                <propertyInstance
+                  Id="f9b84094-921d-458f-a4f3-4e6d7efa6812"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ddab90d-9e8f-41f7-84e8-2198cf56e91d">
+                <propertyInstance
+                  Id="5dead5c5-472d-43e2-9104-f303c3bc4ac2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d227421-279d-48d4-b5a1-c84f90da0512">
+                <propertyInstance
+                  Id="6c0650ae-a10b-4a52-8953-4040ae62ec9f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5372cda4-717e-44ce-8e9b-b3be61a49faa"
+        name="HomePageControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="100443d4-eed6-4909-9f89-4a72498bf86c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DHomePageControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="93d7a9ab-c3aa-4d9d-9eea-832070eb4c59"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6be6cb9e-f2b9-4487-b987-388e8413cdd2">
+                <propertyInstance
+                  Id="fcb328f2-6c9e-486c-bb01-0e11afe5c32f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="996849cd-0ed3-4138-a1bf-663fde4b7718">
+                <propertyInstance
+                  Id="3cdb8cfe-5833-4f0e-82b8-12dba584ecf7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b43f2355-b1c8-4e99-a78d-a1dd5acc27ff">
+                <propertyInstance
+                  Id="0b0cc6ae-421a-4552-97bf-ccb686dbda58"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a5afe48-4368-49e5-a6f0-a392343e75af">
+                <propertyInstance
+                  Id="04fcdd82-ab24-41bf-ad2c-f13a2969685c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a86d9b47-7bd4-4ddc-a055-e901c30d64ee">
+                <propertyInstance
+                  Id="504d4598-90a8-450d-a6b7-491d148d4cfb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="03c46bbd-88c0-4562-a15d-b086278d3754"
+        name="KorisniciControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4a35d9b7-7f6d-40f9-b78c-a79196ef8c5f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DKorisniciControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="055dbd34-0476-47df-b935-1d8486d67587"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8454ed03-fbb7-4d8c-994f-7a087d449fbf">
+                <propertyInstance
+                  Id="e1b8161e-9aea-4a12-bce3-2867d78d1b01"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61d5990c-739e-4eab-9554-87a8370015a2">
+                <propertyInstance
+                  Id="f80fb633-4564-4178-b205-3ea3d5037821"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="211e2f94-938b-4273-98a0-7c05a54aafb0">
+                <propertyInstance
+                  Id="2f345016-be49-47e7-b3bc-b3a4ec684718"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e7ea76d-7d40-4114-9393-d9cbb446134f">
+                <propertyInstance
+                  Id="1a952f56-cb05-4bee-96ff-247bbba3f8e1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2fe12895-ec0b-46e1-bbc5-72a5eae9cd8e">
+                <propertyInstance
+                  Id="3f7f68c2-2cbe-46d8-9c1b-4d72b3fb2d66"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="37895136-1d2b-4c54-aa14-c2d13bc3f436"
+        name="LoginControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4aea0d98-c385-470f-b639-f6d054f12255"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DLoginControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6b2573fc-cbbb-454b-9651-e0e1ad2f8241"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="45221b50-646c-4a4d-8e57-eba06b472b05">
+                <propertyInstance
+                  Id="555eeb49-aba8-435d-b3ee-d9df9b54b7de"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f498b8fb-6fce-4923-a21e-f3ba3a6fe9a6">
+                <propertyInstance
+                  Id="8ea8a047-86ff-413d-99e1-ba745c60ee60"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c76e4ec-b63b-4472-b7cc-d7aded929ff3">
+                <propertyInstance
+                  Id="717e3b46-a9f9-481c-aad3-dfbc9dceb83f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4aee7596-ad12-4fec-a992-aa929e3e9ca5">
+                <propertyInstance
+                  Id="e8c2040a-7832-4ff4-8c5c-75313140926d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a693fe99-a064-40a0-ab22-83d08a541dcb">
+                <propertyInstance
+                  Id="20586f74-6867-4f32-a126-5a0f66d7cb6d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6260fd20-939d-4945-904a-11d9201493a4"
+        name="MojeRezervacijeControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e1634352-31fc-4992-9889-d6a3f8d6576c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DMojeRezervacijeControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="246351b6-3f2d-451e-9721-c92712965ed1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21952319-431a-4762-9fc8-2ce43f9273c2">
+                <propertyInstance
+                  Id="93c93bf4-10fe-4557-a5bc-fbf9124b2988"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae20f739-70ca-4401-aee5-61c5b2104bfa">
+                <propertyInstance
+                  Id="c1e0f8a2-4936-4b36-8b4c-b533e6caeea3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9020a6a8-77a9-4d13-8502-804cfd8b67bc">
+                <propertyInstance
+                  Id="8150d6d2-fa51-4e2c-91a7-b5ade0773722"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ad6d00f8-eae0-4230-89ff-3736d916c4b4">
+                <propertyInstance
+                  Id="b4cc9b15-b9be-43d6-ad49-7bd5b6575d53"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c31eb3b-6477-444e-90e7-687e2db2a426">
+                <propertyInstance
+                  Id="ed627b76-df76-45ab-9a59-34da6378fd37"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c296b77d-b2c9-4816-b217-fbf0c748b5d5"
+        name="NovaRezervacija"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="218cfcfb-46e1-4ab5-a534-ffeb051f2904"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DNovaRezervacija"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="457949af-8921-4e20-a00c-1b32dc3dea9b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21e6f63e-9fdd-4782-afd3-5ac52d993702">
+                <propertyInstance
+                  Id="1d0079ea-30d1-4d3e-bd8e-767238425c3f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f86b8b0f-7850-4237-ad90-1276380763d1">
+                <propertyInstance
+                  Id="19b82d6a-5382-483e-8e1e-28124960e8e1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="639c986d-6c68-4c3c-bde4-c81e19e5b0f8">
+                <propertyInstance
+                  Id="2bc2c443-2ad8-4ff0-aa03-9529dd7fc424"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0da6394c-6cb4-41de-be1b-ed4f926c3fb7">
+                <propertyInstance
+                  Id="3f72ea87-303c-4c03-994a-c8dfa1160e4c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2f95714-b401-41a2-b291-841b2e95d707">
+                <propertyInstance
+                  Id="649c3135-3bd4-45de-b967-aa045c37f2c0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2a56029e-d0b5-4555-85cc-7148a4137b52"
+        name="PopisRezervacija"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4fadc35a-b345-4508-bc90-ab64e36f0cd9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DPopisRezervacija"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="14a4c250-1283-4b45-afcd-a995bf341ffc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e27c8f0-ffec-46a1-bbc6-34d005081b24">
+                <propertyInstance
+                  Id="d94c587f-0a89-40ab-8ec9-3fed53c2c605"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61fda88e-35da-44ce-9b23-8b2038b0b2c6">
+                <propertyInstance
+                  Id="0f5c19d0-b7b0-48e7-9dfc-c51a80a1a691"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b661344c-a59f-4cc6-a29f-f98036ff9f49">
+                <propertyInstance
+                  Id="373a7e91-9584-4133-95e8-7a9b4c3ba0ec"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44aca523-18fa-4cf0-9226-3e87a690541c">
+                <propertyInstance
+                  Id="03b4c1bf-4c0c-4c1b-b36c-01ed6cb25530"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e9cc6eee-46ad-4814-8448-228ca8e7cee9">
+                <propertyInstance
+                  Id="c0462aa5-2f95-4927-b7e9-3830c12c7668"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d3ccecc5-fd0c-41b3-a7a0-660b672956a2"
+        name="PotvrdaRezervacijeControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="54616e98-1772-4523-80b4-a7d2b6407658"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DPotvrdaRezervacijeControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cf661967-6907-4249-9159-f8fe26da994d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ee7a795b-19fd-4eba-9cc8-94997fd3800a">
+                <propertyInstance
+                  Id="399d675a-1b53-4dbe-983b-fadaf8cfa756"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="77c2939e-6c37-4f83-8798-9389cff00700">
+                <propertyInstance
+                  Id="481bc7b4-5279-4da0-a2b4-af20d8042ebb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a042c628-480a-46a6-a765-77405cd7f6f7">
+                <propertyInstance
+                  Id="aaca695d-4e33-49a2-874a-22e99fea1642"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="556926de-c0f1-4b5b-acb9-6d0c6bf9359f">
+                <propertyInstance
+                  Id="814d0a73-05ad-46c0-9355-f3cf035cfcdd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="980fcd05-f215-430c-b685-d1b70529efeb">
+                <propertyInstance
+                  Id="28d1f907-b15d-4d7b-9fe3-e994ff6136b0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="87c05e70-c0b6-448f-ba35-4ec01457fb7a"
+        name="PregledajAutomobilControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e11fd1e8-af11-4d73-bac6-f2a48833b0bd"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DPregledajAutomobilControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d86df6b9-f411-473f-95fb-806473c6d12d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11bda9e0-9540-412e-ae13-8d065c879193">
+                <propertyInstance
+                  Id="d807661d-32c8-41b5-ad41-a4aa5e9542c9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b15c75b4-383d-41dc-925b-7f50fca4af0d">
+                <propertyInstance
+                  Id="f8b56cb7-7871-4328-9c83-7c99703e932c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="56f71c1c-7f4f-4bf2-aca7-db0987dd70b6">
+                <propertyInstance
+                  Id="42992f3e-fec3-4f1e-8de4-287aa2c81520"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d8377ab-316c-4258-ab55-d73f19b66519">
+                <propertyInstance
+                  Id="9f59287f-26bf-4a08-ae87-8d08d7333da5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="19a42770-0a84-44c3-ac06-2db78adf9fc5">
+                <propertyInstance
+                  Id="da4e3653-6095-4a1c-8b32-cec73721266e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c2336f8e-7c96-4b01-82bc-3295a4e6b930"
+        name="Racun"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="82d83cf9-87bd-414e-8259-51fb98bcfa8c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DRacun"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ee1d6efe-c36c-4165-a2d3-43124c70e4b6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5c556fcd-6415-4b77-989c-488e0df1b205">
+                <propertyInstance
+                  Id="4ceb1b58-bc4d-4958-9364-1525ceee99a7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1459a26b-9ea6-4692-932a-441a724b0e2d">
+                <propertyInstance
+                  Id="e4e36a71-0879-481a-87f9-25cf70e48fc1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="77ea68fb-3449-4e1d-987d-b3d9e20eb16f">
+                <propertyInstance
+                  Id="a7866aa4-758e-445e-bc2c-27656f3a5fdb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3ec5c597-d576-493f-a8c3-215648f6b5da">
+                <propertyInstance
+                  Id="acb1eb35-77e0-4106-8aaf-e831a56528d1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c95ba81c-d77f-4023-ab5a-b8c017ab5a49">
+                <propertyInstance
+                  Id="e6643507-7b8a-4361-bbd8-d3cad9461928"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="42cab4f3-3445-490d-9db9-4a9c9bd38e6d"
+        name="RegisterControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3ca1e1a4-a02e-4500-b278-48de4a0d03c1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DRegisterControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="caa557dd-57bf-4fe9-995b-e028514b945d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e0a7ba9f-9b42-465f-861a-e080e6423076">
+                <propertyInstance
+                  Id="4088d8be-ad29-4267-912e-5a86ff3c47d2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d2de56f-84f6-4e51-acf5-0da48b35f448">
+                <propertyInstance
+                  Id="c2f26261-2975-4103-ac58-3bd2d9cc5057"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c7f3d500-0fc1-4611-8f77-e19ce55130bf">
+                <propertyInstance
+                  Id="e23f00db-cec7-4d25-b55a-8a5797294cfd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49bbb57a-e547-40a8-9fe0-75f3f8664980">
+                <propertyInstance
+                  Id="f2ca18f2-d924-4c97-b1f5-8d1df07202ff"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e57c52c3-4882-440f-9a05-bc6b24753ed9">
+                <propertyInstance
+                  Id="d5e38e84-269f-4d95-a056-1f5b574d0741"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d64d7d1c-2868-476b-b2d2-af7e636c82a0"
+        name="RezervacijeControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9391d897-5c49-4eef-b889-9602f1d09063"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DRezervacijeControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="888c2add-b49f-4f39-a77b-bd0e547e4034"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83c454fe-e244-49ed-bf54-91279dd5a8ea">
+                <propertyInstance
+                  Id="f1bb41d9-3613-4e27-9330-205924c4be0a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37b08a90-17ea-4ce7-8344-c506099a1640">
+                <propertyInstance
+                  Id="9826a115-33d0-4fee-85da-3010380d7831"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ed319d2f-e3b8-4b6f-b08b-42047b3e7c48">
+                <propertyInstance
+                  Id="8f54b148-cd08-47a9-abce-d8ea764f3ee4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="247401d8-fb10-4964-9040-d8f8f5238242">
+                <propertyInstance
+                  Id="a31b059c-a352-4226-b055-1f69b93017f9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3718733-bae9-4264-831b-f7d3d98cae45">
+                <propertyInstance
+                  Id="834782b9-0c30-4d92-88f6-4317f1a96215"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f377679d-a937-487f-af4e-ffe6a8d668c3"
+        name="StartPageControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3e4aaec5-39cd-4be9-b968-1ee0c1ad8712"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FDiana%2FDocuments%2FGitHub%2Fr1537%2FProjekt%2FProjekt RentACar v2%2FWindowsFormsApplication4%2Fbin%2FDebug%2FWindowsFormsApplication4.exe&quot; Namespace%3DWindowsFormsApplication4.Controls Type%3DStartPageControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2e7ae32d-3878-4dee-9e84-08acf6ea67a6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="146cf724-7720-49c5-baf3-d93750cf6342">
+                <propertyInstance
+                  Id="26911ca8-ae6d-4497-85ac-0ceb400e7eeb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51cf1353-1cf7-4757-a4c9-7e4a82b73bfb">
+                <propertyInstance
+                  Id="472c6969-c21c-4fa5-8c3e-6f0038a9a543"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d60fb01b-9c1f-440a-99af-794db241d4fc">
+                <propertyInstance
+                  Id="30f76174-d72a-475f-b209-318045681105"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76c48ce6-1b1d-4b67-b4a8-17729ebafe07">
+                <propertyInstance
+                  Id="4994d107-f857-4307-bad2-865817817859"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3f26021-24a6-4069-9eb9-80ee48b57844">
+                <propertyInstance
+                  Id="7bfe4832-ecea-4d19-b134-02bee84c2f4f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
